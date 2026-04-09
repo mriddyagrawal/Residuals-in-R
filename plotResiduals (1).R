@@ -474,7 +474,7 @@ histoqq <- function(data,
                       expand = TRUE)
   } else{
     histoqq.plot <- histoqq.plot +
-      coord_cartesian()
+      coord_fixed(ratio=1)
   }
   (histoqq.plot)
 }
